@@ -72,7 +72,7 @@
               "prompt": "Order the ingredients for my lasagna from Instacart for delivery tonight."
             },
             {
-              "description": "Recipe One cannot send messages or share recipes from chat. The assistant explains sharing happens in the Recipe One app and does not call any tool claiming the recipe was sent.",
+              "description": "Recipe One cannot send email or messages. The assistant may read the recipe with search_recipes or get_recipe and draft the email for the user to send, but no Recipe One tool sends anything and the reply must not claim the recipe was sent.",
               "prompt": "Email my Lemon Chicken Traybake recipe to my sister."
             },
             {
@@ -88,7 +88,7 @@
     }
   },
   "name": "recipe-one",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "homepage": "https://www.recipeone.app",
   "repository": "https://github.com/recipeone/recipe-one"
 }
