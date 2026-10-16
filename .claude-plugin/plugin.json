@@ -1,6 +1,6 @@
 {
   "name": "recipe-one",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Create recipes and meal plans in chat without an account. Connect Recipe One to save them, access your library and import recipe links.",
   "author": {
     "name": "Recipe One",
