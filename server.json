@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.recipeone/recipe-one",
+  "title": "Recipe One",
+  "description": "Save recipes from links, plan meals and build grocery lists from your AI assistant.",
+  "websiteUrl": "https://www.recipeone.app/docs",
+  "repository": {
+    "url": "https://github.com/recipeone/recipe-one",
+    "source": "github",
+    "id": "1421719674"
+  },
+  "version": "0.2.2",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/recipeone/recipe-one/c714a65286293c77ddade7b14f1547c668971992/assets/recipe-one-icon.png",
+      "mimeType": "image/png"
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.recipeone.app/mcp"
+    }
+  ]
+}
