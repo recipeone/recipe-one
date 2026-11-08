@@ -3,7 +3,7 @@
   "name": "io.github.recipeone/recipe-one",
   "title": "Recipe One",
   "description": "Save recipes from links, plan meals and build grocery lists from your AI assistant.",
-  "websiteUrl": "https://www.recipeone.app/docs",
+  "websiteUrl": "https://www.recipeone.app",
   "repository": {
     "url": "https://github.com/recipeone/recipe-one",
     "source": "github",
