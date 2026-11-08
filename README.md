@@ -52,6 +52,7 @@ Or add only the server: `claude mcp add --transport http recipe-one https://mcp.
 | --- | --- |
 | `plugin.json`, `mcp.json` | Agent Plugins hosts (ChatGPT, Cursor) |
 | `server.json` | Official MCP Registry metadata (remote Streamable HTTP) |
+| `lhm.plugin.json` | LobeHub Marketplace owner declaration (homepage + remote Streamable HTTP) |
 | `.github/workflows/publish-mcp.yml` | Manual GitHub Actions OIDC publish to the Official MCP Registry |
 | `.claude-plugin/plugin.json`, `.claude-plugin/marketplace.json`, `.mcp.json` | Claude Code and Claude |
 | `.codex-plugin/plugin.json` | Codex |

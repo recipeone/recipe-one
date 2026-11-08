@@ -1,0 +1,12 @@
+{
+  "identifier": "recipe-one",
+  "name": "Recipe One",
+  "version": "0.2.2",
+  "author": "Recipe One",
+  "authorUrl": "https://www.recipeone.app",
+  "description": "Create recipes and meal plans in chat without an account. Connect Recipe One to save them, access your library and import recipe links.",
+  "homepage": "https://www.recipeone.app",
+  "cloudEndpoint": "https://mcp.recipeone.app/mcp",
+  "category": "productivity",
+  "tags": ["recipes", "meal-planning", "grocery-list", "cooking"]
+}

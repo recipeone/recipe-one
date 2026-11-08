@@ -7,6 +7,10 @@ description: Create recipes, plan meals and prepare shopping lists with Recipe O
 
 Recipe One is useful before someone signs in. Create or adapt recipes in the conversation, scale portions, plan a week and combine shopping quantities without a library or an account. Use the public `show_recipe` and `preview_meal_plan` tools to display those drafts in chat. They do not fetch recipe links, calculate nutrition or save anything to Recipe One. If those public tools are not available in the connected server or host yet, provide the same draft as ordinary chat content; do not invent tool calls or require sign-in just to give recipe and planning help.
 
+## Product and setup
+
+The Recipe One app, accounts and product overview are on the homepage: [https://www.recipeone.app](https://www.recipeone.app). This skill uses the hosted Recipe One MCP server; there is nothing to run from this repository.
+
 ## Shape the plan
 
 Use preferences already supplied in the conversation. Clarify the date range, meals to cover, servings and dietary restrictions when missing. Respect the user's language, location, familiar ingredients and units; never assume a country, cuisine or diet the user has not mentioned. Confirm exact dates rather than assuming which day starts their week. Ask only for information that materially affects the plan, and state reasonable defaults for optional details.
